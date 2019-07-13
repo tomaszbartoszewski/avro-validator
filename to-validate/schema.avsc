@@ -1,0 +1,7 @@
+{
+    "type" : "record",
+    "name" : "userInfo",
+    "namespace" : "my.example",
+    "fields" : [{"name" : "age", "type" : "double"}, {"name" : "myname", "type" : "string"}
+    , {"name" : "asd", "type" : "string"}]
+}
