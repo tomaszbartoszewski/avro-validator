@@ -1,5 +1,18 @@
 # JSON Message validation against AVRO
 
+## Running validation from fastavro
+
+Validation from fastavro gives better error messages than java code. Run validation.py to see an error message. It requires fastavro library.
+
+```
+python3 validation.py
+```
+```
+[
+  "Field(my.example.userInfo.asd) is None expected string"
+]
+```
+
 ## Running validation
 
 Save in top directory avro schema (schema.avsc as an example). Save in top directory message in json format (valid.json and invalid.json as examples). Run validation script:
